@@ -1,4 +1,5 @@
 function uploadFile() {
+  localStorage.removeItem('meusDados');
   const fileInput = document.getElementById('jsonFile');
   const file = fileInput.files[0];
 
