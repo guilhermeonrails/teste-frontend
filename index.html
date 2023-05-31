@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-color.css" rel="stylesheet">
+    <title>Músicas favoritas ♬</title>
+</head>
+
+<body>
+    <header>
+        <div class="upload">
+            <label for="jsonFile">♬ Clique aqui e carregue seu JSON </label>
+            <input type="file" id="jsonFile">
+            <a href="#content" type="button" onclick="uploadFile()">Enviar</a>
+          </div>
+    </header>
+    <main>
+        <section id="content">
+            <div id="latestalbum" class="hero pad">
+                <div class="container">
+                    <div class="hero-content ">
+                        <h2>Suas músicas favoritas 🎧</h2>
+                    </div>
+                    <!-- hero play list -->
+                    <div class="hero-playlist">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <!-- music album image -->
+                                <div class="figure">
+                                    <img class="img-responsive" src="img/album/1.jpg" alt="" />
+                                    <img class="img-responsive disk" src="img/album/disk.png" alt="" />
+                                </div>
+                                <div class="album-details">
+                                    <p> _</p>
+                                    <p> _</p>
+                                    <p> _</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="playlist-content" id="playlist-content">
+                                    <!-- <ul class="list-unstyled">
+                                        <li class="playlist-number">
+                                            <div class="song-info">
+                                                <h4>Música One</h4>
+                                                <p><strong>Artist</strong>: Artist &nbsp;|&nbsp; <strong>Tipo</strong>:
+                                                    Rock
+                                                </p>
+                                            </div>
+                                            <div class="music-icon">
+                                                <a href="#"><i class="fa fa-play"></i></a>
+                                                <a href="#"><i class="fa fa-pause"></i></a>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+                                        <div class="clearfix"></div>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

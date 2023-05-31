@@ -1,0 +1,183 @@
+/*
+ * Basic CSS starts 
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+
+body {
+	color: #252c37;
+	background-color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #ccc;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+a:hover {
+	text-decoration: none;
+	border-bottom: solid 0.2px rgb(255, 255, 255);
+}
+
+
+.upload {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.upload input[type="file"] {
+	display: none;
+}
+
+.upload label {
+	margin-right: 10px;
+	font-size: 5rem;
+	color: #ddd;
+}
+
+.upload a {
+	padding: 10px 5px;
+	font-size: 2rem;
+}
+
+/* content */
+
+.content {
+	height: 100vh;
+	margin-top: 2rem;
+}
+
+
+.hero .hero-content {
+	text-align: center;
+}
+
+.hero-content h2 {
+	margin-top: 2rem;
+	margin-bottom: 0;
+	font-size: 45px;
+}
+
+.hero-content hr {
+	max-width: 450px;
+	margin: 20px auto;
+	border-top: 1px solid #ddd;
+}
+
+.hero-content p {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.hero-playlist {
+	margin-top: 50px;
+}
+
+.hero-playlist .figure {
+	position: relative;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.hero-playlist .figure .disk {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+	opacity: 0.5;
+}
+
+.hero-playlist .album-details {
+	max-width: 450px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+.hero-playlist .album-details h4 {
+	font-size: 22px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.hero-playlist .album-details h5 {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #aaa;
+}
+
+.hero-playlist .album-details p {
+	margin-bottom: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.playlist-content .playlist-number {
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	background: #fafafa;
+	border: 1px solid #ddd;
+}
+
+.playlist-content .playlist-number .song-info {
+	float: left;
+}
+
+.playlist-content .playlist-number .song-info h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	color: #000;
+}
+
+.playlist-content .playlist-number .song-info p {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.playlist-content .playlist-number .music-icon {
+	float: right;
+}
+
+.playlist-content .playlist-number .music-icon a {
+	display: inline-block;
+	width: 30px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
