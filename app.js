@@ -19,8 +19,14 @@ function ExibirMusicasNaTela() {
   const musicas = JSON.parse(localStorage.getItem('meusDados'));
 
   playlistContent.innerHTML = ''; // Limpa o conteúdo atual da div
+  const h2Element = document.querySelector('.hero-content h2');
+  h2Element.textContent = ''
+  const nomeComPrimeiraLetraMaiuscula = capitalizeFirstLetter(musicas.nome);
+  h2Element.textContent = `Suas músicas favoritas ${nomeComPrimeiraLetraMaiuscula} 🎧` 
 
-  musicas.forEach(musica => {
+  console.log(musicas.musicas);
+
+  musicas.musicas.forEach(musica => {
     playlistContent.innerHTML += `
     <ul class="list-unstyled">
     <li class="playlist-number">
@@ -40,4 +46,8 @@ function ExibirMusicasNaTela() {
 </ul>
     `
   });
+}
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
