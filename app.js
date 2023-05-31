@@ -31,8 +31,8 @@ function ExibirMusicasNaTela() {
             </p>
         </div>
         <div class="music-icon">
-            <a href="#"><i class="fa fa-play"></i></a>
-            <a href="#"><i class="fa fa-pause"></i></a>
+            <a href=""><i class="fa fa-play"></i></a>
+            <a href=""><i class="fa fa-pause"></i></a>
         </div>
         <div class="clearfix"></div>
     </li>
