@@ -31,9 +31,9 @@ function ExibirMusicasNaTela() {
     <ul class="list-unstyled">
     <li class="playlist-number">
         <div class="song-info">
-            <h4>${musica.Song}</h4>
-            <p><strong>Artist</strong>: ${musica.Artist} &nbsp;|&nbsp; <strong>Tipo</strong>:
-            ${musica.Genre}
+            <h4>${musica.song}</h4>
+            <p><strong>Artist</strong>: ${musica.artist} &nbsp;|&nbsp; <strong>Tipo</strong>:
+            ${musica.genre}
             </p>
         </div>
         <div class="music-icon">
